@@ -1,0 +1,21 @@
+opam-version: "2.0"
+maintainer: "kc@kcsrk.info"
+
+homepage: "https://github.com/achlipala/frap"
+dev-repo: "git+https://github.com/achlipala/frap.git"
+bug-reports: "https://github.com/achlipala/frap/issues"
+
+synopsis: "FRAP lib, the library of FRAP book"
+description: """
+"""
+
+version: "dev"
+
+build: [ "dune" "build" "-p" name "-j" jobs ]
+
+depends: [
+  "ocaml"
+  "coq"
+]
+
+authors : [ "Adam Chlipala" ]
